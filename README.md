@@ -1,5 +1,7 @@
 # Getting Started with Create React App
 
+Primeira vez utilizando o react, fiz apenas alguns componentes como introdução a está esta linguagem/framework.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

@@ -1,0 +1,49 @@
+:root {
+    --cor-fundo-primaria: #000;
+    --cor-fundo-secundaria: #121212;
+    --cor-branco-primaria: #fff;
+    --cor-fonte-secundaria: #b3b3b3;
+    --fonte-principal: "DM Sans", sans-serif;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(to right, #ff007f, #4595eb);
+    color: var(--cor-branco-primaria);
+    padding: 15px;
+    font-family: var(--fonte-principal);
+}
+
+footer .footer_texto p {
+    margin: 0 0 12px 15px;
+    color: var(--cor-branco-primaria);
+    font-size: 14px;
+}
+
+.footer_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--cor-branco-primaria);
+    color: var(--cor-fundo-primaria);
+    border-radius: 20px;
+    font-size: 10px;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 10px;
+    border: 0;
+    width: 150px;
+    margin: 0px 15px 15px 0;
+}
+
+.footer_button button{
+    background-color: var(--cor-branco-primaria);
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+}
